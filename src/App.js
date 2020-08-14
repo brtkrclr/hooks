@@ -15,7 +15,6 @@ const items = [{
     title: "How do you use React?",
     content: "You use React by creating components",
 }];*/
-
 const options=[
     {
         label:"The Color Red",
@@ -29,7 +28,6 @@ const options=[
 
     }
 ];
-
 
 export default () => {
     const[selected,setSelected]=useState(options[0]);
